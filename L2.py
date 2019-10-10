@@ -63,13 +63,13 @@ def conv2d(x, W):
     # Must have strides[0] = strides[3] = 1
     return tf.nn.conv2d(x, W, strides=[1, 1, 1, 1], padding='SAME', use_cudnn_on_gpu=True)  # x = data of image
 # tf.nn.conv2d(input, filter, strides, padding, use_cudnn_on_gpu=None, data_format=None, name=None)
-# filter：卷积核是一个4维格式的数据：shape表示为：[height,width,in_channels, out_channels]    
+# filter：convolution kernel is four dimension data：shape：[height,width,in_channels, out_channels]    
     
 def max_pool_2x2(x):
     # Must have strides[0] = strides[3] = 1
     return tf.nn.max_pool(x, ksize=[1,2,2,1], strides=[1,2,2,1], padding='SAME')
 # tf.nn.max_pool( value, ksize,strides,padding,data_format=’NHWC’,name=None)     
-# 默认情况下shape 为[batch, height, width, channels]
+# default shape :[batch, height, width, channels]
 #"""
 
 x_train = np.zeros((7411,pixels))
