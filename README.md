@@ -3,7 +3,7 @@ Convolutional Neural Network for Image Recognition
 
 * Implement a CNN for image recognition.
 
-* Plot the learning curve, accuracy rate of training and test sets
+* Plot the learning curve, accuracy rate of training and test sets(L2 N
 
 ![image](https://github.com/apkeidj123/DeepLearning-3/blob/master/picture/2019-10-10_173049.png)
 ![image](https://github.com/apkeidj123/DeepLearning-3/blob/master/picture/2019-10-10_173055.png)
