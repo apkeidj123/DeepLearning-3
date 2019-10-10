@@ -1,5 +1,5 @@
 # DeepLearning-3
-Convolutional Neural Network for Image Recognition
+## Convolutional Neural Network for Image Recognition
 
 * Implement a CNN for image recognition.
 
